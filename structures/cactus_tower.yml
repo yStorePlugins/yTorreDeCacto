@@ -1,0 +1,54 @@
+# Nome da ESTRUTURA
+display-name: '&aTorre de Cacto'
+
+# Bloco que irá aparecer no preview caso esteja bloqueado de por
+preview-block: 'RED_STAINED_GLASS'
+
+# Quantia de vezes que a estrutura irá se repetir (para cima)
+repeat-amount: 5
+
+# Item que o jogador irá receber
+item:
+  material: CACTUS
+  name: '&aTorre de Cactos'
+  lore:
+    - '&7Este item irá gerar uma'
+    - '&7incrível torre de cactos.'
+    - ''
+    - '&f Quantia da torre: &a5 níveis'
+    - ''
+    - '&aClique para ativar.'
+
+# Siglas de cada bloco para identificação no pattern
+blocks:
+  - 'C,CACTUS'
+  - 'X,AIR'
+  - 'D,DIRT'
+  - 'S,SAND'
+
+# Modelagem da estrutura
+patterns:
+  bottom:
+    y: 1
+    pattern:
+      - 'XDX'
+      - 'DXD'
+      - 'XDX'
+  sands:
+    y: 2
+    pattern:
+      - 'XSX'
+      - 'SXS'
+      - 'XSX'
+  cactus:
+    y: 3
+    pattern:
+      - 'XCX'
+      - 'CXC'
+      - 'XCX'
+  top:
+    y: 4
+    pattern:
+      - 'XXX'
+      - 'XDX'
+      - 'XXX'
