@@ -19,10 +19,10 @@ general:
   shift-preview-enabled: true
   # Ativar o preview sem shift
   no-shift-preview-enabled: true
-  # Ativar o preview no shift
-  shift-preview: true
-  # Ativar o preview sem shift
-  no-shift-preview: false
+  # Ativar o place no shift
+  shift-place: true
+  # Ativar o place sem shift
+  no-shift-place: false
   # Tempo que levará para atualizar o preview
   # em ticks (20 ticks = 1 segundo)
   refresh-time: 5
