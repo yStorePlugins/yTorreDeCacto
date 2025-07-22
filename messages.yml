@@ -25,3 +25,4 @@ chat:
   structure-list: |
     &cEstrutura não encontrada.
     &cEstruturas disponíveis: &f{list}
+  structure-activated: '&aEstrutura ativada com sucesso.'
